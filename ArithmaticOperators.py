@@ -16,5 +16,4 @@ print(e) # 1
 print(f) # 3
 print(g) # 1000
 
-
 print(19 ** 2)
