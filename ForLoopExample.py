@@ -1,6 +1,6 @@
 # Loops: To repeat certain task for n number of times
 
-# for i in range(10):
+# for i in range(1,10):
 #     print(i)
 
 # for i in range(5, 25):
@@ -10,13 +10,17 @@
 #     if i % 2 == 0:
 #         print(i)
 
+# for i in range(0, 51, 2):
+#     print(i)
+
+
 # for i in range(1, 50, 3):
 #     print(i)
 
 # print odd numbers using step
 # To print even we can use `range(0,51,2)`
 
-# for i in range(1, 51, 2):
+# for i in range(0, 51, 2):
 #     print(i)
 
 # print('A \nB')
@@ -28,8 +32,8 @@
 # print('A', end='-')
 # print('B')
 
-# for i in "Sangita":
-#     print(i, end='')
+for i in "Sangita":
+    print(i, end='')
 
 # Create a table by taking the user input
 # For Ex: 3
@@ -53,3 +57,5 @@
 # ***
 # ****
 # *****
+
+

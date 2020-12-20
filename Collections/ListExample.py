@@ -70,9 +70,14 @@ listNo = [1,2,2,2,3,3,3,3,4,4,5,5,6,6,7,7,77,8,8,9,9,9,0,0,0,9,88,8]
 listNew = []
 
 # Hint: Create new empty list and try to use iteration
+for i in listNo:
+    if i not in listNew:
+        listNew.append(i)
+
+print(listNew)
 
 
-
+# listC = list(listNo)
 
 
 

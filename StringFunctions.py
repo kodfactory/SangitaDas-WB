@@ -1,4 +1,4 @@
-# name = 'Kod Factory'
+name = 'Kod Factory'
       # 012..
 # upper case
 # lower case
@@ -7,9 +7,9 @@
 # check if perticular character/string existi in string or not
 # Replace
 
-# print(name.upper())
+print(name.upper())
 
-# print(name.lower())
+print(name.lower())
 
 # print(len(name))
 
@@ -30,7 +30,6 @@ firstname = "Sangita"
 # print(firstname[2:])
 
 # print(firstname[:5])
-
 
 # frd1 = "Pooja Das"
 # frd2 = "Sangita Das"
@@ -68,17 +67,7 @@ secondString = "der Fluss"
 
 # # To do case less comparision
 
-if firstString.casefold() == secondString.casefold():
-    print("Both strings are identical")
-else:
-    print("Both strings are not identical")
-
-
-
-
-
-
-
-
-
-
+# if firstString.casefold() == secondString.casefold():
+#     print("Both strings are identical")
+# else:
+#     print("Both strings are not identical")
